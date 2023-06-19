@@ -1,0 +1,32 @@
+html {
+    font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+}
+
+body {
+    background: rgb(215, 250, 220);
+}
+
+.header {
+    font-size: 90px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.footer {
+    background-color: rgb(186, 222, 187);
+    padding: 6px;
+    clear: both;
+}
+
+/* index page specific css */
+
+.index-page-body {
+    background: lightgrey;
+}
+
+.index-page-ul {
+    font-size: 24px;
+}
