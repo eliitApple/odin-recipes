@@ -1,24 +1,30 @@
 html {
     font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+    box-sizing: border-box;
 }
 
 body {
     background: rgb(215, 250, 220);
 }
 
-.header {
-    font-size: 90px;
-    font-weight: 600;
-    background-image: linear-gradient(to left, #553c9a, #b393d3);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+/*
+* {
+    border: 2px solid red;
+}
+*/
+h1 {
+    margin-bottom: 30px;
+    text-indent: 10%;
 }
 
-.footer {
-    background-color: rgb(186, 222, 187);
-    padding: 6px;
-    clear: both;
+.button {
+    background-color: grey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 /* index page specific css */
